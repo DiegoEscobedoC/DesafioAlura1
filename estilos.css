@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    background-color: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    height: 1044px;
+}
+
+header{
+    display: inline-block;
+}
+
+.cajalogo{
+    display: inline-block;
+    position: relative;
+}
+
+header .logo{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+
+.principal{
+    width: 680px;
+    height: 784px;
+    margin-left: 240px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    
+}
+
+/*Se agrego el nuevo teaxt area*/
+.principal .input-texto{
+    width: 577px;  
+    padding: 0px;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400px;
+    max-height: 672px;
+    color: #0A3871;
+    resize: none;
+    border: none;
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+}
+
+
+
+
+.seleccion{
+    
+    box-sizing: border-box;
+    position: absolute;
+    top: 851px;
+    margin-bottom: 72px;
+
+}
+
+.seleccion p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.seleccion #codificar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid;
+    padding: 0 0 0 0;
+    margin-right: 10px;
+    background-color: #0A3871;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.seleccion #descifrar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid;
+    padding: 0 0 0 0;
+    margin-left: 8px;
+    background-color: #D8DFE8;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+
+.contenedor{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 944px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    border-radius: 32px;
+
+}
+
+.contenedor #mensaje-Descrifrado{  
+    width: 336px;
+    height: 781px;
+    color: #495057;
+    padding: 0;
+    border: none;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    resize: none;
+
+    }
+
+.contenedor #copiando{
+    flex-direction: row;
+    align-items: flex-start;
+    width: 336px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin: 32px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+
+}
+
+.contenedor #cajaEncima{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+}
+
+
+
+#cajaEncima .dibujo-texto{
+    text-align: center;
+    margin: 243px 32px;
+}
+
+#cajaEncima .texto{
+    width: 336px;
+    text-align: center;
+    margin: 32px auto;
+    height: 122px;
+
+}
+
+
+.texto .parr1{
+    height: 58px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.texto .parr2{
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+}
+
+
+
+
+/*
+.contenido{
+    width: 336px;
+    margin: 243px auto
+}
+
+.contenedor .texto{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.texto .mensaje{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #343A40;
+}
+
+.texto .sugerencia{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}*/
+
+

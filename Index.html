@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio Alura</title>
+        <link rel="stylesheet" href="cssprueba.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+
+    </head>
+
+    <body>
+        <header>
+            <div class="cajalogo">
+                <h1 class="logo"><img src="Imagenes/Logo.png"></h1>
+            </div>        
+        </header>
+
+        <main>
+            <section class="principal">   
+                <form>
+                    <textarea id="mensaje" class="input-texto" rows='1' required placeholder='ingrese texto aquí'></textarea>                    
+                </form>
+
+                <div class="seleccion">
+                    <p>&#33 Solo letras minúsculas y sin acentos</p>
+                    <input type="submit" onclick="final()" value="Encriptar" id="codificar">
+                    <input type="submit" onclick="final2()" value="Desencriptar" id="descifrar">
+
+                </div>
+            </section>
+ 
+
+        </main>
+
+        <footer>
+            <section class="contenedor">
+
+                <form>
+                    <textarea id="mensaje-Descrifrado" rows='1' ></textarea>
+                </form>                
+                <input type="submit" value="copiar" id="copiando" onclick="copiando()">
+
+
+                <div id="cajaEncima">
+                    <div class="dibujo-texto">
+                        <img src="Imagenes/Muñeco.png">
+                        <div class="texto">
+                            <p class="parr1"><strong>Ningun mensaje fue encontrado</strong></p>
+                            <p class="parr2">Ingresa el texto que desees encriptar o descifrar</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script src="prueba.js"></script>
+        
+    </body>
+</html>
