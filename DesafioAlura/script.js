@@ -1,9 +1,4 @@
 
-    
-    
-
-    
-    
     /* Para el autoresize del textarea */
     var textarea = document.getElementById('mensaje');
 
