@@ -74,7 +74,7 @@ header .logo{
     padding: 0 0 0 0;
     margin-right: 10px;
     background-color: #0A3871;
-
+    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -92,7 +92,7 @@ header .logo{
     padding: 0 0 0 0;
     margin-left: 8px;
     background-color: #D8DFE8;
-
+    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
